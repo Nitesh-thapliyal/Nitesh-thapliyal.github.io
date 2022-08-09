@@ -665,9 +665,6 @@ img {
         padding: 20px;
   
       }
-      .grid > article:hover{
-        border-color: white;
-      }
 
 
       .btn-primary{
@@ -686,4 +683,26 @@ img {
         background-color: #5c63e6;
       }
     
+/* Gallary*/
+
+.container1 {
+	display: block;
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+ 
+.small {
+	width: 300px;
+	height: 200px;
+	position: relative;
+	margin: 3px;
+	border-radius: 5px;
+}
+ 
+.small:hover {
+	-webkit-transform: scale(1.03, 1.03);
+	transform: scale(1.03, 1.03);
+}
+
   
