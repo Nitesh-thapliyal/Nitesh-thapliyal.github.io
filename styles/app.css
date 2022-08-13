@@ -1047,9 +1047,26 @@ button:hover {
   font-weight: 400;
   transition: all 0.3s ease;
 }
+
+ .row section .right a{
+  text-decoration: none;
+  background: #3ea0e2;
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  margin-right: 220px;
+  border-radius: 5px;
+  /* font-size: 17px; */
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+
+
 .row section .bottom a:hover{
   transform: scale(0.97);
 }
+
+
+
 @media(max-width: 790px){
   .wrapper .center-line{
     left: 40px;
