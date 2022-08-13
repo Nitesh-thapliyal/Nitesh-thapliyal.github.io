@@ -41,7 +41,7 @@ html {
       font-size: 75%; } }
 
 body {
-  padding: 40px 0;
+ /* padding: 40px 0;*/
   line-height: 1.6;
   font-weight: var(--font-regular);
   font-size: 1.45rem;
@@ -1094,3 +1094,79 @@ button:hover {
     margin: 10px 0;
   }
 }
+
+
+/*Contact form*/
+.contact {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap; }
+  .contact__left {
+    flex-basis: 40%; }
+    @media only screen and (max-width: 900px) {
+      .contact__left {
+        flex-basis: 100%; } }
+  .contact__info {
+    margin: 1.5rem 0;
+    text-align: left; }
+    @media only screen and (max-width: 900px) {
+      .contact__info {
+        text-align: center; } }
+    .contact__info p {
+      font-weight: var(--font-semi-bold); }
+    .contact__info a {
+      text-decoration: none;
+      font-size: 2.4rem;
+      font-weight: var(--font-bold);
+      color: var(--color-main);
+      transition: all 0.3s ease-in-out; }
+      @media only screen and (max-width: 900px) {
+        .contact__info a {
+          font-size: 2rem; } }
+      .contact__info a:hover {
+        color: var(--color-accent); }
+    @media only screen and (max-width: 900px) {
+      .contact__info .social {
+        justify-content: center; } }
+  .contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--color-darkest);
+    padding: 4rem; }
+  .contact__fields label {
+    position: absolute;
+    left: -9999px; }
+  .contact__fields input,
+  .contact__fields textarea {
+    width: 100%;
+    padding: 1.2rem;
+    padding-left: 0;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid var(--color-darker); }
+  .contact__fields textarea {
+    resize: none;
+    height: 12rem; }
+  .contact__fields button {
+    font-size: 1.6rem;
+    display: inline-block;
+    padding: 1.5rem 2.5rem; }
+    @media only screen and (max-width: 900px) {
+      .contact__fields button {
+        font-size: 1.4rem;
+        width: 100%; } }
+
+
+/*Footer*/
+
+.footer__copyright {
+  background-color: var(--color-darkest);
+  color: var(--color-light);
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 1.8rem 0; }
+  .footer__copyright a {
+    color: var(--color-main); }
+  
