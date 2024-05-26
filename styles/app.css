@@ -99,6 +99,7 @@ img {
   display: flex;
   align-items: center;
   gap: 3rem;
+  margin-bottom: 90px;
 }
 .social > li > a {
   color: var(--color-text);
